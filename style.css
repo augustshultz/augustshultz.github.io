@@ -3,4 +3,10 @@
 		background-color: black;
 		color: white;
 	}	
+	a {
+		color: acqua;
+	}
+	a:visited {
+		color: fuschia;
+	}
 }
