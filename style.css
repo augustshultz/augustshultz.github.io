@@ -1,14 +1,18 @@
 @media (prefers-color-scheme: dark) {
 	body {
 		background-color: #1E1E1E;
-		color: white;
+		color: #f5eaea;
 	}
 	a {
 		color: fuchsia;
 	}
 }
 
-#main {
+main {
 	max-width: 650px;
 	margin: 0 auto;
+}
+
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
