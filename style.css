@@ -1,10 +1,16 @@
+:root {
+	--dark-theme-link: fuchsia;
+	--dark-theme-background: #1e1e1e;
+	--dark-theme-text: #f5eaea;
+}
+
 @media (prefers-color-scheme: dark) {
 	body {
-		background-color: #1E1E1E;
-		color: #f5eaea;
+		background-color: var(--dark-theme-background);
+		color: var(--dark-theme-text);
 	}
 	a {
-		color: fuchsia;
+		color: var(--dark-theme-link);
 	}
 }
 
